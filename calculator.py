@@ -30,7 +30,7 @@ def calculator():
             start_quit = input(
                 'Type \'start\' to start using this calculator or type close to quit: ')
             if start_quit == 'close':
-                break
+                sys.exit(0)
             if start_quit == 'start':
                 while True:
                     number_for_list = float(
