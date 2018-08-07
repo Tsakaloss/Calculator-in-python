@@ -65,7 +65,7 @@ def calculator():
 
     except KeyboardInterrupt:
         print("\nExiting...")
-        sys.exit(0)
+        sys.exit(0)  # exits
 
 
 if __name__ == '__main__':
