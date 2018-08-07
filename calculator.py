@@ -26,11 +26,11 @@ def calculator():
             signs_only = []
             counter = 1  # For the text to input third+ sign or = for result
 
-            # Get first input.
+            # Get first user's input.
             start_quit = input(
                 'Type \'start\' to start using this calculator or type close to quit: ')
             if start_quit == 'close':
-                break
+                sys.exit(0)
             if start_quit == 'start':
                 while True:
                     number_for_list = float(
@@ -67,8 +67,9 @@ def calculator():
 
     except KeyboardInterrupt:
         print("\nExiting...")
-        sys.exit(0)  # exits
+        sys.exit(0)  # gracefull exit.
 
 
 if __name__ == '__main__':
+    # Run calculator.
     calculator()
