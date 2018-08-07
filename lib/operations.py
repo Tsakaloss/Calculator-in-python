@@ -1,0 +1,14 @@
+class Calculations:
+    """Implemantion of operations"""
+
+    def plus(a, b):
+        return a + b
+
+    def minus(a, b):
+        return a - b
+
+    def multiply(a, b):
+        return a * b
+
+    def divine(a, b):
+        return a / b
