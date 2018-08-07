@@ -2,6 +2,7 @@ import sys
 from lib import operations
 
 
+# Manage the operations
 def mathing_func(a, b, sign):
     if sign == '+':
         return operations.Calculations.plus(a, b)
