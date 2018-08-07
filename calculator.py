@@ -17,6 +17,7 @@ def mathing_func(a, b, sign):
         sys.exit(1)
 
 
+# Start the main calculator.
 def calculator():
     try:
         while True:
