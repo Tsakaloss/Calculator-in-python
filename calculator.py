@@ -25,6 +25,8 @@ def calculator():
             numbers_listed = []
             signs_only = []
             counter = 1  # For the text to input third+ sign or = for result
+
+            # Get first input.
             start_quit = input(
                 'Type \'start\' to start using this calculator or type close to quit: ')
             if start_quit == 'close':
